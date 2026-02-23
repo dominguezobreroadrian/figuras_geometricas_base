@@ -29,4 +29,4 @@ public class Punto {
 		return Math.sqrt(((otro.getX() - this.x)*2) + ((otro.getY() - this.y)*2));
 	}
 	
-	}
+}
