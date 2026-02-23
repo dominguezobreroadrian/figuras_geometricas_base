@@ -7,7 +7,7 @@ package com.endes.figuras;
  * 
  * Implementa {@link Comparable} para proporcionar un orden natural basado en el área.
  * 
- * @author Tu nombre
+ * @author Adrián Domínguez Obrero
  * @version 1.0
  * @since 1.8 
  */
