@@ -37,12 +37,12 @@ public class Circulo extends FiguraGeometrica {
      * @param color el color del círculo
      * @param radio el radio del círculo
      */
-    public Circulo(String nombre, String color, double radio) {
+    public Circulo(String nombre, String color, Punto centro, double radio) {
         super(nombre, color);
         this.radio = radio;
         this.anguloRotacion = 0.0;
-        this.posX = 0.0;
-        this.posY = 0.0;
+        this.posX = centro.getX();
+        this.posY = centro.getY();
     }
 
     /**
