@@ -18,5 +18,7 @@ public class Triangulo extends FiguraGeometrica {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+	
 
 }
