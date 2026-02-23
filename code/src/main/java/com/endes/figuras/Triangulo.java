@@ -1,10 +1,10 @@
 package com.endes.figuras;
 
 public class Triangulo extends FiguraGeometrica {
-private double vertice1;
-private double vertice2;
-private double vertice3;
-	public Triangulo(String nombre, String color) {
+private  Punto vertice1;
+private Punto vertice2;
+private Punto vertice3;
+	public Triangulo(String nombre, String color,Punto vertice1, Punto vertice2, Punto vertice3) {
 		super(nombre, color);
 		this.vertice1= vertice1;
 		this.vertice2=vertice2;
