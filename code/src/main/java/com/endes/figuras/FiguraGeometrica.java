@@ -105,4 +105,6 @@ public abstract class FiguraGeometrica implements Comparable<FiguraGeometrica> {
     public void trasladar(double dx, double dy) {
         System.out.println("Trasladando la figura " + nombre + " en (" + dx + ", " + dy + ").");
     }
+
+    
 }
