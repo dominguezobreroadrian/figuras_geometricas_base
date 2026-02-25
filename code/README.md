@@ -11,11 +11,12 @@ El objetivo principal es demostrar el uso de herencia, polimorfismo y conceptos 
 ```
 figuras_geometricas_base/code/
 ├── README.md
+├── pom.xml
+├── .classpath
+├── .project
 ├── src/
 │   ├── main/java/com/endes/figuras/
 │   │   ├── Circulo.java              # Implementación de círculos
-│   │   ├── Cuadrado.java             # Implementación de cuadrados
-│   │   ├── Triangulo.java            # Implementación de triángulos
 │   │   ├── FiguraGeometrica.java     # Clase base abstracta
 │   │   └── Punto.java                # Clase utilitaria para coordenadas
 │   └── test/java/com/endes/figuras/
@@ -24,12 +25,12 @@ figuras_geometricas_base/code/
 
 ## Integrantes del Equipo
 
-| Integrante | Figura Asignada | Responsabilidades |
-|-----------|-----------------|------------------|
-| Carlos Ruiz | Círculo | Implementación y pruebas de la clase Circulo |
-| Joel Parrondo | Cuadrado | Implementación y pruebas de la clase Cuadrado |
-| Jose Manuel | Triángulo | Implementación y pruebas de la clase Triangulo |
-| Adrián Domínguez | Base + Punto | Clase FiguraGeometrica base y clase Punto |
+| Integrante | Figura Asignada | Estado | Responsabilidades |
+|-----------|-----------------|--------|------------------|
+| Carlos Ruiz | Círculo | ✓ Completado | Implementación y pruebas de la clase Circulo |
+| Joel Parrondo | Cuadrado | ⏳ Pendiente | Implementación y pruebas de la clase Cuadrado |
+| Jose Manuel | Triángulo | ⏳ Pendiente | Implementación y pruebas de la clase Triangulo |
+| Adrián Domínguez | Base + Punto | ✓ Completado | Clase FiguraGeometrica base y clase Punto |
 
 
 ## Instrucciones de Compilación y Ejecución
@@ -96,13 +97,13 @@ Clase abstracta que define la interfaz común para todas las figuras geométrica
 - `calcularPerimetro()`: Calcula el perímetro de la figura
 
 ### Circulo
-Implementa un círculo definido por su radio. Proporciona cálculos de área y perímetro.
+Implementa un círculo definido por su radio. Proporciona cálculos de área y perímetro. **[IMPLEMENTADO]**
 
 ### Cuadrado
-Implementa un cuadrado definido por su lado. Proporciona cálculos de área y perímetro.
+Implementa un cuadrado definido por su lado. Proporciona cálculos de área y perímetro. **[PENDIENTE]**
 
 ### Triangulo
-Implementa un triángulo. Puede estar definido por sus tres lados, tres puntos, o base y altura, según la implementación.
+Implementa un triángulo. Puede estar definido por sus tres lados, tres puntos, o base y altura, según la implementación. **[PENDIENTE]**
 
 ### Punto
 Clase utilitaria que representa un punto en el plano cartesiano con coordenadas (x, y).
