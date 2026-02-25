@@ -1,6 +1,7 @@
 package com.endes.figuras;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 
 	public class PuntoTest {
@@ -84,3 +85,20 @@ import org.junit.jupiter.api.Test;
 	        assertEquals(distanciaEsperada, distancia, 0.0001, "La distancia calculada es incorrecta");
 	    }
 	}
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class PuntoTest {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}
+
