@@ -13,16 +13,25 @@ private Punto vertice3;
 
 	@Override
 	public double area() {
-		double s =(vertice1+vertice2+vertice3)/2;
-		return Math.sqrt(s*(s-vertice1)*(s-vertice2)*(s-vertice3));
-		
+		 double lado1 = distancia(vertice1, vertice2); double lado2 = distancia(vertice2, vertice3);
+		 double lado3 = distancia(vertice3, vertice1);
+		 double s = (lado1 + lado2 + lado3) / 2;
+		 return Math.sqrt(s * (s - lado1) * (s - lado2) * (s - lado3));
 	}
 
 	@Override
 	public double perimetro() {
-		return vertice1 + vertice2 +vertice3;
+		 double lado1 = distancia(vertice1, vertice2);
+		 double lado2 = distancia(vertice2, vertice3);
+		 double lado3 = distancia(vertice3, vertice1);
+		 return lado1 + lado2 + lado3;
 		
 	}
+	private double distancia(Punto p1, Punto p2) { double dx = p2.getX() - p1.getX();
+	double dy = p2.getY() - p1.getY();
+	return Math.sqrt(dx*dx + dy*dy);
+	}
+	
 	public void rotar(double angulo) {
 		double rad = Math.toRadians(angulo);
 		double x1 = 0;
