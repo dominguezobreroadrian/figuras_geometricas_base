@@ -14,6 +14,18 @@
         <version>5.11.3</version>
         <scope>test</scope>
     </dependency>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.6.3</version>
+            <configuration>
+                <reportOutputDirectory>${project.basedir}/docs</reportOutputDirectory>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
