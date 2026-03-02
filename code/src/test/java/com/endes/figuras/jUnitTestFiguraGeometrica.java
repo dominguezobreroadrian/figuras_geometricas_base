@@ -1,4 +1,4 @@
-package test.java.com.endes.figuras;
+package com.endes.figuras;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
