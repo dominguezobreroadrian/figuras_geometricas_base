@@ -6,7 +6,7 @@ package com.endes.figuras;
  * para círculos como área y perímetro, además de operaciones
  * de rotación y traslación con seguimiento de posición.
  * 
- * @author Carlos Ruiz Garrido
+ * @author Carlos Manuel Ruiz Garrido
  * @version 1.0
  * @since 1.8
  */
