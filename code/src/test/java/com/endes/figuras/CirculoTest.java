@@ -7,12 +7,12 @@ import com.endes.figuras.*;
 
 /**
  * Clase de pruebas unitarias para las figuras geométricas.
- * Prueba la funcionalidad de Punto, Circulo, Cuadrado y Triangulo.
+ * Prueba la funcionalidad de Circulo.
  * 
  * @author Carlos Ruiz Garrido
  * @version 1.0
  */
-public class jUnitTestFiguraGeometrica {
+public class CirculoTest {
     
     // ===== ATRIBUTOS PARA PRUEBAS =====
     private Punto puntoOrigen;
