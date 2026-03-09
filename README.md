@@ -16,7 +16,57 @@ figuras_geometricas_base/code/
 ├── .classpath
 ├── .project
 ├── docs/
-│   ├── 
+    ├── apidocs
+    ├── allclasses-index.html
+    ├── allpackages-index.html
+    ├── com
+    │   └── endes
+    │       └── figuras
+    │           ├── Circulo.html
+    │           ├── class-use
+    │           │   ├── Circulo.html
+    │           │   ├── Cuadrado.html
+    │           │   ├── FiguraGeometrica.html
+    │           │   ├── Punto.html
+    │           │   └── Triangulo.html
+    │           ├── Cuadrado.html
+    │           ├── FiguraGeometrica.html
+    │           ├── package-summary.html
+    │           ├── package-tree.html
+    │           ├── package-use.html
+    │           ├── Punto.html
+    │           └── Triangulo.html
+    ├── copy.svg
+    ├── element-list
+    ├── help-doc.html
+    ├── index-all.html
+    ├── index.html
+    ├── javadoc.sh
+    ├── legal
+    │   ├── ASSEMBLY_EXCEPTION
+    │   ├── jquery.md
+    │   └── jqueryUI.md
+    ├── link.svg
+    ├── member-search-index.js
+    ├── module-search-index.js
+    ├── options
+    ├── overview-tree.html
+    ├── packages
+    ├── package-search-index.js
+    ├── resources
+    │   ├── glass.png
+    │   └── x.png
+    ├── script-dir
+    │   ├── jquery-3.7.1.min.js
+    │   ├── jquery-ui.min.css
+    │   └── jquery-ui.min.js
+    ├── script.js
+    ├── search.html
+    ├── search.js
+    ├── search-page.js
+    ├── stylesheet.css
+    ├── tag-search-index.js
+    └── type-search-index.js
 ├── src/
 │   ├── main/java/com/endes/figuras/
 │   │   ├── Circulo.java              
