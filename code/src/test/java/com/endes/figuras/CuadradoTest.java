@@ -1,3 +1,5 @@
+package com.endes.figuras;
+
 /**
  * Representa un cuadrado en el plano, definido por un nombre, color,
  * una esquina inferior izquierda y la longitud de su lado.
@@ -5,7 +7,7 @@
  *
  * @author Joel Parrondo
  */
-public class Cuadrado {
+public class CuadradoTest {
 
     private String nombre;
     private String color;
@@ -21,7 +23,7 @@ public class Cuadrado {
      * @param esquina punto que representa la esquina inferior izquierda
      * @param lado longitud del lado del cuadrado (debe ser positiva)
      */
-    public Cuadrado(String nombre, String color, Punto esquina, double lado) {
+    public CuadradoTest(String nombre, String color, Punto esquina, double lado) {
         this.nombre = nombre;
         this.color = color;
         this.esquina = esquina;
