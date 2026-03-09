@@ -1,3 +1,5 @@
+package com.endes.figuras;
+
 /**
  * Clase que representa un círculo como una figura geométrica.
  * Extiende {@link FiguraGeometrica} e implementa cálculos específicos

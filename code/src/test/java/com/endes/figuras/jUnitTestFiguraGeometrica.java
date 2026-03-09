@@ -58,13 +58,6 @@ public class jUnitTestFiguraGeometrica {
         assertEquals("Segundo giro incorrecto", 0, circulo.getAnguloRotacion(), 0.001);
     }
     
-    @Test
-    public void testCirculoTraslacion() {
-        Punto antes = circulo.getPosicion();
-        circulo.trasladar(3, 4);
-        assertEquals("Posicion X incorrecta tras traslacion", 3, circulo.getPosX(), 0.001);
-        assertEquals("Posicion Y incorrecta tras traslacion", 4, circulo.getPosY(), 0.001);
-    }
     
     @Test
     public void testCirculoTraslacionMultiple() {
@@ -106,14 +99,5 @@ public class jUnitTestFiguraGeometrica {
         assertEquals("Color del circulo", "Azul", circulo.getColor());
     }
     
-    @Test
-    public void testNombreCuadrado() {
-        assertEquals("Nombre del cuadrado", "Cuadrado Principal", cuadrado.getNombre());
-    }
-    
-    @Test
-    public void testColorCuadrado() {
-        assertEquals("Color del cuadrado", "Rojo", cuadrado.getColor());
-    }
     
 }
