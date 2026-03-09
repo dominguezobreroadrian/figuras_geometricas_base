@@ -15,13 +15,20 @@ figuras_geometricas_base/code/
 ├── pom.xml
 ├── .classpath
 ├── .project
+├── docs/
+│   ├── 
 ├── src/
 │   ├── main/java/com/endes/figuras/
-│   │   ├── Circulo.java              # Implementación de círculos
-│   │   ├── FiguraGeometrica.java     # Clase base abstracta
-│   │   └── Punto.java                # Clase utilitaria para coordenadas
-│   └── test/java/com/endes/figuras/
-│       └── jUnitTestFiguraGeometrica.java  # Tests unitarios
+│   │   ├── Circulo.java              
+│   │   ├── FiguraGeometrica.java
+|   |   ├── Cuadrado.java
+|   |   ├── Triangulo.java
+│   │   └── Punto.java             
+│   └── test/java/com/endes/figuras/      # Tests unitarios
+│   │   ├── CirculoTest.java
+|   |   ├── CuadradoTest.java
+|   |   ├── TrianguloTest.java
+│   │   └── PuntoTest.java
 ```
 
 ## Integrantes del Equipo
