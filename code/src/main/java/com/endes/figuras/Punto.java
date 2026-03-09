@@ -1,6 +1,7 @@
 package com.endes.figuras;
 
 public class Punto {
+
 	private double x;
 	private double y;
 
@@ -46,3 +47,4 @@ public class Punto {
 	}
 	
 	}
+
