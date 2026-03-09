@@ -29,7 +29,7 @@ figuras_geometricas_base/code/
 | Integrante | Figura Asignada | Estado | Responsabilidades |
 |-----------|-----------------|--------|------------------|
 | Carlos Ruiz | Círculo | ✓ Completado | Implementación y pruebas de la clase Circulo |
-| Joel Parrondo | Cuadrado | ⏳ Pendiente | Implementación y pruebas de la clase Cuadrado |
+| Joel Parrondo | Cuadrado | ✓ Completado | Implementación y pruebas de la clase Cuadrado |
 | Jose Manuel | Triángulo | ⏳ Pendiente | Implementación y pruebas de la clase Triangulo |
 | Adrián Domínguez | Base + Punto | ✓ Completado | Clase FiguraGeometrica base y clase Punto |
 
