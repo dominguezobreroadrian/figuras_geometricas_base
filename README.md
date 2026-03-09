@@ -101,13 +101,13 @@ Clase abstracta que define la interfaz común para todas las figuras geométrica
 Implementa un círculo definido por su radio. Proporciona cálculos de área y perímetro. **[IMPLEMENTADO]**
 
 ### Cuadrado
-Implementa un cuadrado definido por su lado. Proporciona cálculos de área y perímetro. **[PENDIENTE]**
+Implementa un cuadrado definido por su lado. Proporciona cálculos de área y perímetro. **[IMPLEMENTADO]**
 
 ### Triangulo
 Implementa un triángulo. Puede estar definido por sus tres lados, tres puntos, o base y altura, según la implementación. **[PENDIENTE]**
 
 ### Punto
-Clase utilitaria que representa un punto en el plano cartesiano con coordenadas (x, y).
+Clase utilitaria que representa un punto en el plano cartesiano con coordenadas (x, y). **[IMPLEMENTADO]**
 
 ## Notas Adicionales
 
