@@ -30,7 +30,7 @@ figuras_geometricas_base/code/
 |-----------|-----------------|--------|------------------|
 | Carlos Ruiz Garrido | Círculo | ✓ Completado | Implementación y pruebas de la clase Circulo |
 | Joel Parrondo Collantes de Terán | Cuadrado | ✓ Completado | Implementación y pruebas de la clase Cuadrado |
-| Jose Manuel Romero Ramírez | Triángulo | ⏳ Pendiente | Implementación y pruebas de la clase Triangulo |
+| Jose Manuel Romero Ramírez EL PARRAS | Triángulo | ✓ Completado | Implementación y pruebas de la clase Triangulo |
 | Adrián Domínguez Obrero | Base + Punto | ✓ Completado | Clase FiguraGeometrica base y clase Punto |
 
 
